@@ -1,0 +1,125 @@
+.card-wrapper {
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  max-width: 480px;
+  max-height: 460px;
+  min-width: 322px;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  background-color: #fff;
+}
+
+.card:hover {
+  /* transform: scale(1.07); */
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* border: 2px solid red; */
+  align-items: center;
+  /* flex-grow: 1; */
+}
+
+.card__image {
+  /* max-width: 50px; */
+  height: 280px; 
+  /* min-height: 300px; */
+  padding: 0 10px;
+  /* flex-grow: 1; */
+  /* border: 2px solid red; */
+}
+
+.card__image > img {
+  /* border: 2px solid red; */
+  object-fit: fill;
+  max-height: 300px;
+  max-height: 100%;
+  min-width: 100%;
+  border-radius: 10px;
+}
+
+.card__info {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  border: 1;
+  /* flex-grow: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  max-height:100px;
+}
+
+.card__button:hover {
+  color: rgb(13, 90, 190);
+  background-color: white;
+  border: 2px solid rgb(13, 90, 190);
+  transition: all 0.2s;
+}
+
+
+p {
+  text-align: start;
+  margin-top: 0;
+  font-size: 14px;
+  /* margin-bottom: 10px; */
+  margin: 0;
+}
+
+.video-name{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.live-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-text{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(231, 44, 44);
+    margin-left: 5px;
+}
+
+.live-dot{
+    color: rgb(231, 44, 44);
+    /* margin-left: 290px; */
+    /* border: 2px solid red; */
+}
+
+.video-creator-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.video-discription{
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card__image > img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card__button {
+    max-width: 330px;
+  }
+}
