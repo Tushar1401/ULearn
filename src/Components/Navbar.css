@@ -45,7 +45,7 @@
 }
 
 .logo :first-child {
-  color: #D58053;
+  color: #d58053;
 }
 
 .category-container {
@@ -94,11 +94,17 @@
 
 .sign-up {
   color: #fff;
-  background: #D58053;
+  background: #d58053;
   border-radius: 8px;
   padding: 7px;
   padding-left: 14px;
   padding-right: 14px;
   font-weight: 500;
   margin-left: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.sign-up:hover {
+  transform: scale(1.03);
+  box-shadow: 6px 6px 18px -9px rgba(104, 104, 104, 0.75);
 }
