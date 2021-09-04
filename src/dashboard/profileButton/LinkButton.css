@@ -1,0 +1,31 @@
+button{
+    background-color: unset;
+    border: unset;
+}
+.friends{
+    display: flex;
+    flex-grow: 1;
+    padding-left: 32%;
+}
+
+.friends > div {
+    background-color: dodgerblue;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    flex-basis: 21%;
+    padding: 0.5vw;
+    margin: 1vw;
+}
+.userStatus {
+    display: flex;
+    flex-grow: 1;
+}
+.userStatus > div {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-content: center;
+    flex-basis: 33%;
+    padding: 0.5vw;
+    margin: 1vw;
+}

@@ -48,7 +48,7 @@ function Footer() {
                     </div>
                     <div className="footer-mid-right">
                         <div className="form-container">
-                            <form action="#">
+                            <form action="/">
                                 <p className="form-heading">Subscribe to our Newsletter</p>
                                 <div className="form-input">
                                     <input type="text" id="footer-input" placeholder="Type your email ..." />

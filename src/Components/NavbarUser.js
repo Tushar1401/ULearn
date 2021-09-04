@@ -6,6 +6,7 @@ import AppsIcon from '@material-ui/icons/Apps';
 import SearchIcon from '@material-ui/icons/Search';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
+
 function Navbar() {
     return (
         <div className="navbar-container">
@@ -38,7 +39,7 @@ function Navbar() {
 
                 <div className="user-container">
                     <p className="user-greet">Hello User</p>
-                    <Link to='/user' style={{ textDecoration: 'none' }}>
+                    <Link to='/userprofile' style={{ textDecoration: 'none' }}>
                         <div className="user-profile">
                             <AccountCircleIcon />
                             <p className="profile-text">See Profile</p>

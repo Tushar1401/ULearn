@@ -9,6 +9,7 @@ import RecentlyContainer from './Components/RecentlyContainer';
 import Footer from './Components/Footer';
 import Login from './Components/Login';
 import React from 'react';
+import UserProfile from './dashboard/UserProfile.js';
 
 function App() {
 
@@ -20,6 +21,12 @@ function App() {
 
           <Route path='/login'>
             <Login />
+          </Route>
+
+          <Route path='/userprofile'>
+            <NavbarUser />
+            <UserProfile />
+            <Footer />
           </Route>
 
           <Route path='/user'>

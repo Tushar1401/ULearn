@@ -1,0 +1,23 @@
+
+#skills{
+    display: flex;
+    margin: 2vw;
+    flex: 1;
+}
+.skills-chart {
+    height:25%;
+    width:25%;
+    flex-basis: 50%;
+
+}
+.table{
+    margin: 2vw;
+    padding: 2vw;
+}
+table{
+    margin: auto;
+    padding: 4vh;
+    font-size: 2vh;
+    border: 2px dashed forestgreen;
+    border-radius: 10%;
+}

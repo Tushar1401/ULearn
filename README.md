@@ -11,6 +11,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![image](./src/ScreenShots/ss1.png)
 ![image](./src/ScreenShots/ss2.png)
 ![image](./src/ScreenShots/ss3.png)
+![image](./src/ScreenShots/ss4.png)
+![image](./src/ScreenShots/ss5.png)
+![image](./src/ScreenShots/ss6.png)
 
 ## Tech Stack Used
 * [React.js](https://reactjs.org/docs/getting-started.html)

@@ -1,0 +1,73 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+.header{
+    background-color: rebeccapurple;
+    width: 100%;
+    min-height: 20%;
+    /* border: 2px solid black; */
+    /* border-radius: 4px; */
+}
+
+
+#profile-upper
+{
+    position: relative;
+    /* border: 2px solid blue; */
+
+}
+#profile-upper:hover{
+    border: 2px solid lightblue;
+
+}
+#profile-d
+{
+    position: absolute;
+    left: 59px;
+    bottom: 0px;
+    right: 0px;
+    height: 180px;
+    align-content: center;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+#profile-banner-image
+{
+    height: 360px;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+
+}
+
+#profile-banner-image img
+{
+    width: 100%;
+    margin-top: -20%;
+    border-radius: 10px;
+}
+
+#profile-pic
+{
+    width: 180px;
+    height: 180px;
+    margin-top: 28px;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #fff;
+    border-radius: 50%;
+    /* border: 10px solid blue; */
+
+}
+
+#profile-pic:hover{
+    border: 10px solid lightblue;
+}
+#profile-pic img
+{
+    width: 100%;
+}
+
+hr{
+    font-weight: bolder;
+    font-size: 44px;
+}
