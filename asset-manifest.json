@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ULearn/static/css/main.f441b3eb.chunk.css",
+    "main.js": "/ULearn/static/js/main.0e5d6e15.chunk.js",
+    "main.js.map": "/ULearn/static/js/main.0e5d6e15.chunk.js.map",
+    "runtime-main.js": "/ULearn/static/js/runtime-main.9122c3d6.js",
+    "runtime-main.js.map": "/ULearn/static/js/runtime-main.9122c3d6.js.map",
+    "static/js/2.83261cf9.chunk.js": "/ULearn/static/js/2.83261cf9.chunk.js",
+    "static/js/2.83261cf9.chunk.js.map": "/ULearn/static/js/2.83261cf9.chunk.js.map",
+    "static/js/3.2f3806e7.chunk.js": "/ULearn/static/js/3.2f3806e7.chunk.js",
+    "static/js/3.2f3806e7.chunk.js.map": "/ULearn/static/js/3.2f3806e7.chunk.js.map",
+    "index.html": "/ULearn/index.html",
+    "static/css/main.f441b3eb.chunk.css.map": "/ULearn/static/css/main.f441b3eb.chunk.css.map",
+    "static/js/2.83261cf9.chunk.js.LICENSE.txt": "/ULearn/static/js/2.83261cf9.chunk.js.LICENSE.txt",
+    "static/media/hero-card-img.4317535e.svg": "/ULearn/static/media/hero-card-img.4317535e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9122c3d6.js",
+    "static/js/2.83261cf9.chunk.js",
+    "static/css/main.f441b3eb.chunk.css",
+    "static/js/main.0e5d6e15.chunk.js"
+  ]
+}
