@@ -1,0 +1,34 @@
+.user-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-greet {
+  color: #fff;
+  font-weight: 500;
+}
+
+.user-profile {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #d58053;
+  border-radius: 8px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.profile-text {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.user-profile:hover {
+  transform: scale(1.03);
+  box-shadow: 6px 6px 18px -9px rgba(104, 104, 104, 0.75);
+}

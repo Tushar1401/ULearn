@@ -6,7 +6,7 @@ import HeroSection from './HeroSection'
 import './Login.css'
 import handleNav from '../App.js';
 
-const Login = ({flag}, {onSuccess}) => {
+const Login = () => {
 
     useEffect(() => {
         var config = {
@@ -20,10 +20,11 @@ const Login = ({flag}, {onSuccess}) => {
             onSuccess: payload => {
                 // you can use this payload for your purpose
                 // console.log('done');
-                flag = true;
+                // flag = true;
                 // console.log(flag);
-                onSuccess;
-                window.location.assign("http://localhost:3000/");
+                // onSuccess;
+                // window.location.assign("http://localhost:3000/");
+                window.location.assign("http://localhost:3000/user");
             },
         }
         let sawo = new Sawo(config)

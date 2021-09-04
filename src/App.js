@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './Components/Navbar';
+import NavbarUser from './Components/NavbarUser';
 import HeroSection from './Components/HeroSection';
 import Card from './Components/Card';
 import LiveContainer from './Components/LiveContainer';
@@ -9,89 +10,88 @@ import Footer from './Components/Footer';
 import Login from './Components/Login';
 import React from 'react';
 
-// var handleNav = false;
+function App() {
 
-// function App() {
+  return (
+    <Router>
+      <div className="App">
 
-//   const [flag, setFlag] = useState(false);
+        <Switch>
 
-//   return (
-//     <Router>
-//       <div className="App">
+          <Route path='/login'>
+            <Login />
+          </Route>
 
-//         <Switch>
+          <Route path='/user'>
+            <NavbarUser />
+            <HeroSection />
+            <LiveContainer />
+            <RecentlyContainer />
+            <Footer />
+          </Route>
 
-//           <Route path='/login'>
-//             <Login handleNav={handleNav} flag={flag} />
-//           </Route>
+          <Route path='/'>
+            <Navbar />
+            <HeroSection />
+            <LiveContainer />
+            <RecentlyContainer />
+            <Footer />
+          </Route>
 
-//           <Route path='/'>
-//             <Navbar handleNav={handleNav} />
-//             <HeroSection />
-//             {/* <div className="card-container">
+        </Switch>
+
+      </div>
+    </Router>
+  );
+}
+
+export default App;
+
+
+// const defaultState = {
+//   flag: false
+// };
+
+// class App extends React.Component {
+//   state = defaultState;
+
+//   succesLogin = () => {
+//     this.setState({
+//       flag: true
+//     })
+//   }
+
+//   render() {
+//     return (
+//       <Router>
+//         <div className="App">
+
+//           <Switch>
+
+//             <Route path='/login'>
+//               <Login flag={this.state.flag} onSuccess={this.succesLogin}/>
+//             </Route>
+
+//             <Route path='/'>
+//               <Navbar flag={this.state.flag} />
+//               <HeroSection />
+//               {/* <div className="card-container">
 //               <Card live={true}/>
 //               <Card live={true}/>
 //               <Card live={true}/>
 //             </div> */}
-//             <LiveContainer />
-//             <RecentlyContainer />
-//             <Footer />
-//           </Route>
+//               <LiveContainer />
+//               <RecentlyContainer />
+//               <Footer />
+//             </Route>
 
-//         </Switch>
+//           </Switch>
 
-//       </div>
-//     </Router>
-//   );
+//         </div>
+//       </Router>
+//     );
+//   }
 // }
 
 // export default App;
-
-
-const defaultState = {
-  flag: false
-};
-
-class App extends React.Component {
-  state = defaultState;
-
-  succesLogin = () => {
-    this.setState({
-      flag: true
-    })
-  }
-
-  render() {
-    return (
-      <Router>
-        <div className="App">
-
-          <Switch>
-
-            <Route path='/login'>
-              <Login flag={this.state.flag} onSuccess={this.succesLogin}/>
-            </Route>
-
-            <Route path='/'>
-              <Navbar flag={this.state.flag} />
-              <HeroSection />
-              {/* <div className="card-container">
-              <Card live={true}/>
-              <Card live={true}/>
-              <Card live={true}/>
-            </div> */}
-              <LiveContainer />
-              <RecentlyContainer />
-              <Footer />
-            </Route>
-
-          </Switch>
-
-        </div>
-      </Router>
-    );
-  }
-}
-
-export default App;
 

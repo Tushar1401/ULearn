@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Components/Navbar.css'
+import '../Components/NavbarUser.css'
 import AppsIcon from '@material-ui/icons/Apps';
 import SearchIcon from '@material-ui/icons/Search';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 function Navbar() {
     return (
@@ -34,12 +36,13 @@ function Navbar() {
                 {/* {console.log(handleNav)} */}
                 {/* {console.log("NAV",flag)} */}
 
-                <div className="login-container">
-                    <Link to='/login' style={{ textDecoration: 'none' }}>
-                        <p className="sign-in">Sign in</p>
-                    </Link>
-                    <Link to='/login' style={{ textDecoration: 'none' }}>
-                        <p className="sign-up">Sign Up</p>
+                <div className="user-container">
+                    <p className="user-greet">Hello User</p>
+                    <Link to='/user' style={{ textDecoration: 'none' }}>
+                        <div className="user-profile">
+                            <AccountCircleIcon />
+                            <p className="profile-text">See Profile</p>
+                        </div>
                     </Link>
                 </div>
 

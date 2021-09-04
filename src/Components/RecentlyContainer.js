@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Card from './Card'
 import './RecentlyContainer.css'
 
@@ -56,8 +57,11 @@ function RecentlyContainer() {
 
 
                 </div>
+
                 <div className="explore-more">
-                    <button className="explore-btn">Explore More</button>
+                    <Link to='/' style={{ textDecoration: 'none' }}>
+                        <button className="explore-btn">Explore More</button>
+                    </Link>
                 </div>
             </div>
         </div>
