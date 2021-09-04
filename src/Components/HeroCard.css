@@ -1,0 +1,80 @@
+.hero-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  background: #d3e7ee;
+  box-shadow: 4px 4px 12px 1px rgba(87, 87, 87, 0.47);
+  height: 50vh;
+  width: 80vw;
+  margin-left: 10vw;
+  border-radius: 15px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 2px solid red; */
+  height: 100%;
+  padding: 36px;
+  padding-right: 50px;
+  width: 50%;
+}
+
+.cta {
+  /* border: 2px solid red; */
+}
+
+.hero-card-btn {
+  background-color: #d58053;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  width: 280px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discription {
+  font-size: 14px;
+  margin-top: -10px;
+  /* border: 2px solid red; */
+}
+
+.heading p{
+  font-size: 46px;
+  font-weight: 500;
+  color: #0A3D64;
+  /* border: 2px solid red; */
+}
+
+.heading span{
+    color: #d58053;
+}
+
+#heading-hero{
+    margin-top: -10px;
+}
+
+.heading{
+    /* border: 2px solid red; */
+}
+
+.right{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

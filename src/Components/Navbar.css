@@ -1,12 +1,12 @@
 .navbar-container {
-  background-color: #0A3D64;
+  background-color: #052c49;
   display: flex;
   color: #dae1e7;
   justify-content: space-between;
   height: 8vh;
 }
 
-.left {
+.nav-left {
   display: flex;
   /* border: 2px solid red; */
   width: 50%;
@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.right {
+.nav-right {
   display: flex;
   /* border: 2px solid red; */
   align-items: center;

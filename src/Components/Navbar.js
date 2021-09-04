@@ -7,7 +7,7 @@ import SearchIcon from '@material-ui/icons/Search';
 function Navbar() {
     return (
         <div className="navbar-container">
-            <div className="left">
+            <div className="nav-left">
 
                 <div className="logo-container">
                     <Link to='/' style={{ textDecoration: 'none' }}>
@@ -26,7 +26,7 @@ function Navbar() {
                 </div>
             </div>
 
-            <div className="right">
+            <div className="nav-right">
                 <div className="search">
                     <SearchIcon/>
                 </div>
