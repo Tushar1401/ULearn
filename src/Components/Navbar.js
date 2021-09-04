@@ -4,7 +4,7 @@ import '../Components/Navbar.css'
 import AppsIcon from '@material-ui/icons/Apps';
 import SearchIcon from '@material-ui/icons/Search';
 
-function Navbar() {
+function Navbar({handleNav},{flag}) {
     return (
         <div className="navbar-container">
             <div className="nav-left">
@@ -31,14 +31,22 @@ function Navbar() {
                     <SearchIcon/>
                 </div>
 
+                {/* {console.log(handleNav)} */}
+                {console.log("NAV",flag)}
+                {handleNav == false ?
+                
                 <div className="login-container">
                     <Link to='/' style={{ textDecoration: 'none' }}>
                         <p className="sign-in">Sign in</p>
                     </Link>
-                    <Link to='/' style={{ textDecoration: 'none' }}>
+                    <Link to='/login' style={{ textDecoration: 'none' }}>
                         <p className="sign-up">Sign Up</p>
                     </Link>
                 </div>
+                :
+                
+                    <h1>HELLO</h1>
+}
             </div>
 
         </div>
