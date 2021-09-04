@@ -5,6 +5,7 @@ import HeroSection from './Components/HeroSection';
 import Card from './Components/Card';
 import LiveContainer from './Components/LiveContainer';
 import RecentlyContainer from './Components/RecentlyContainer';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             </div> */}
             <LiveContainer />
             <RecentlyContainer />
+            <Footer />
           </Route>
 
         </Switch>

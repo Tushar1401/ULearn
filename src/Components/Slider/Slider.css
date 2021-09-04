@@ -6,7 +6,7 @@
   align-items: center;
   /* border: 2px solid red; */
   padding: 20px;
- 
+
   /* margin: 10px 0; */
 }
 
@@ -15,6 +15,7 @@
   top: 50%;
   left: 320px;
   color: #183661;
+  color: #fff;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -25,6 +26,7 @@
   top: 50%;
   right: 320px;
   color: #183661;
+  color: #fff;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -37,14 +39,17 @@
   /* border: 2px solid red; */
 }
 
-
-.slide{
-    opacity: 0;
-    transition: 1s ease;
+.slide {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-.slide.active{
-    opacity: 1;
-    transition: 1s ease;
-    transform: scale(1.00);
+.slide.active {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  transform: scale(1);
+}
+
+.slide-card {
+  border: 2px solid red;
 }
