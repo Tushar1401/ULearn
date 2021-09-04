@@ -1,5 +1,5 @@
 .navbar-container {
-  background-color: #183661;
+  background-color: #0A3D64;
   display: flex;
   color: #dae1e7;
   justify-content: space-between;
@@ -45,7 +45,7 @@
 }
 
 .logo :first-child {
-  color: #dd6b4d;
+  color: #D58053;
 }
 
 .category-container {
@@ -94,7 +94,7 @@
 
 .sign-up {
   color: #fff;
-  background: #dd6b4d;
+  background: #D58053;
   border-radius: 8px;
   padding: 7px;
   padding-left: 14px;
