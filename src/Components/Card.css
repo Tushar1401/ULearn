@@ -43,6 +43,7 @@
 
 .card__image > img {
   /* border: 2px solid red; */
+  /* object-fit: contain; */
   object-fit: fill;
   max-height: 300px;
   max-height: 100%;

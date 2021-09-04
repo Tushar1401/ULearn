@@ -13,23 +13,23 @@ function LiveContainer() {
                 <div className="live-card-container">
                     <Card
                         title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        image="https://image.freepik.com/free-vector/magnetic-field-like-poles-attract_1308-62874.jpg"
                         video_name="John Smith"
                         video_discription="Magnetic Field | Electrostatics | Lecture 5"
                         live={true}
                     />
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="Web Development"
+                        image="https://image.freepik.com/free-vector/website-development-banner_33099-1687.jpg"
+                        video_name="Clay Neal"
+                        video_discription="HTML Basics | Tags | Project & Doubts"
                         live={true}
                     />
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="Finance"
+                        image="https://image.freepik.com/free-vector/startup-managers-presenting-analyzing-sales-growth-chart-group-workers-with-heap-cash-rocket-bar-diagrams-with-arrow-heap-money_74855-14166.jpg"
+                        video_name="Harriet Lucero "
+                        video_discription="How The Economy Works | English "
                         live={true}
                     />
                 </div>

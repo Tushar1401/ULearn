@@ -12,45 +12,45 @@ function RecentlyContainer() {
                 </div>
                 <div className="recently-card-container">
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="UI/UX Designing"
+                        image="https://image.freepik.com/free-vector/gradient-ui-ux-background_23-2149065783.jpg"
+                        video_name="Aleeza Brock"
+                        video_discription="Fundamental Principles | Important "
                         live={false}
                     />
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="Public Speaking"
+                        image="https://as2.ftcdn.net/v2/jpg/02/64/10/57/500_F_264105760_W86OZkA9rrpm8wOJObFni9LTcCTb7uPT.jpg"
+                        video_name="Nick Burn"
+                        video_discription="How to make people listen to you ?"
                         live={false}
                     />
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="Aptitude"
+                        image="https://image.freepik.com/free-vector/brain-logo_126523-778.jpg"
+                        video_name="Kim Clements"
+                        video_discription="2021 Top Aptitude Questions [SOVLED]"
                         live={false}
                     />
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="Mathematics"
+                        image="https://image.freepik.com/free-vector/isometric-maths-elements-background_52683-8061.jpg"
+                        video_name="Leo Holmes"
+                        video_discription="Integration | Tricks and Important Formulae"
                         live={false}
                     />
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="Machine Learning"
+                        image="https://image.freepik.com/free-vector/characters-fixing-computer-chatbot-isometric-icon-3d_1284-63049.jpg"
+                        video_name="Louis Gentry"
+                        video_discription="Getting started | Python Revision & More"
                         live={false}
                     />
                     <Card
-                        title="Physics"
-                        image="https://images.unsplash.com/photo-1630589762290-6a3c62223604?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        video_name="John Smith"
-                        video_discription="Magnetic Field | Electrostatics | Lecture 5"
+                        title="Chemistry"
+                        image="https://image.freepik.com/free-photo/laboratory-glassware-with-liquids-different-color_1150-19441.jpg"
+                        video_name="Caris Vance"
+                        video_discription="States Of Matter | Top Questions | Solved"
                         live={false}
                     />
 

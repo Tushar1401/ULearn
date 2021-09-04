@@ -42,8 +42,9 @@
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    background-color: #ecf5ff;
 }
 
-.nav-extra{
+.nav-extra{ 
     width: 100vw;
 }

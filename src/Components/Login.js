@@ -6,7 +6,7 @@ import HeroSection from './HeroSection'
 import './Login.css'
 import handleNav from '../App.js';
 
-const Login = ({ handleNav }, { flag }) => {
+const Login = ({flag}, {onSuccess}) => {
 
     useEffect(() => {
         var config = {
@@ -21,8 +21,8 @@ const Login = ({ handleNav }, { flag }) => {
                 // you can use this payload for your purpose
                 // console.log('done');
                 flag = true;
-                handleNav = true;
-                console.log(handleNav);
+                // console.log(flag);
+                onSuccess;
                 window.location.assign("http://localhost:3000/");
             },
         }
