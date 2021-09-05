@@ -24,7 +24,7 @@ const Login = () => {
                 // console.log(flag);
                 // onSuccess;
                 // window.location.assign("http://localhost:3000/");
-                window.location.assign("http://localhost:3000/user");
+                window.location.assign("https://tushar1401.github.io/user");
             },
         }
         let sawo = new Sawo(config)
